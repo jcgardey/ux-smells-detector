@@ -4,7 +4,7 @@ from test import predict_ux_smell
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="pepe",
 )
 
 
