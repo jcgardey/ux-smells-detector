@@ -1,0 +1,334 @@
+id,title,ux_smell,url,reasoning
+1,Reduce the width of the default activity bar,,https://github.com/microsoft/vscode/issues/271132,No apparent UX issue; only a UI adjustment.
+2,"Increase status bar height, icon size, text size",,https://github.com/microsoft/vscode/issues/271126,"Goal is styling consistency, not a user experience deficiency."
+3,Add space in string for new editor empty state,Undescriptive Element,https://github.com/microsoft/vscode/issues/270694,Missing space makes text ambiguous and hard to read.
+4,Chat Context Clearing,UX Guidance,https://github.com/microsoft/vscode/issues/270465,Users need better cues to start new sessions; not current UX.
+5,Empty chat history item,Undescriptive Element,https://github.com/microsoft/vscode/issues/270329,Blank title leaves user uncertain about chat identity.
+6,Overlapping chat parts in short-ish window,UX Smell,https://github.com/microsoft/vscode/issues/270273,Overlapping UI fragments cause confusion and misclicks.
+7,Improve Issue Reporter UX - design explorations,UX Smell,https://github.com/microsoft/vscode/issues/270214,High friction in issue reporting hinders user flow.
+8,Codicon refresh | Alignment with Fluent iconography,,https://github.com/microsoft/vscode/issues/270212,Design refresh; no UX shortfall identified.
+9,Implement design tokens for font sizes,,https://github.com/microsoft/vscode/issues/270210,Font token proposal; not an UX defect.
+10,Extract elements line-height values to CSS variables,,https://github.com/microsoft/vscode/issues/270157,Missing line‑height variable affects styling only.
+11,AI-First Profile MVP,,https://github.com/microsoft/vscode/issues/270130,"Feature expansion, not an UX flaw."
+12,Chat Session Branching MVP,,https://github.com/microsoft/vscode/issues/270128,Branching feature; not a UX smell.
+13,No bottom padding in inline chat,UX Smell,https://github.com/microsoft/vscode/issues/269994,"Missing bottom padding breaks visual balance, confusing users."
+14,"Responsive chat panel css, revised prompt titles",UX Smell,https://github.com/microsoft/vscode/pull/269791,Responsive layout issues may mislead users about content availability.
+15,VS Code Figma Component Update: Menu,,https://github.com/microsoft/vscode/issues/269786,Menu component update; no usability gap.
+16,VS Code Component  Update: Status Icons,Undescriptive Element,https://github.com/microsoft/vscode/issues/269538,"Status icons lack clear naming, causing uncertainty."
+17,Better search header? to account for mcp server,Undescriptive Element,https://github.com/microsoft/vscode/issues/269117,Search header doesn't identify MCP server type.
+18,Inline chat for a chat session model picker does not apply to delegated sessions,UX Smell,https://github.com/microsoft/vscode/issues/269033,Model picker not updating leads to user confusion.
+19,Can't tell if marketplace item is MCP server,Undescriptive Element,https://github.com/microsoft/vscode/issues/269024,Lack of MCP server indicator misleads users.
+20,Half pill shaped warning for MCP unclear to me,Undescriptive Element,https://github.com/microsoft/vscode/issues/269018,Confusing warning icon style hides intent.
+21,Chat: Model picker value should be cached,,https://github.com/microsoft/vscode/issues/268856,Caching performance concern; UX not impacted.
+22,Vs code avatar issue,Undescriptive Element,https://github.com/microsoft/vscode/issues/269408,No initials or fallback; user sees wrong account.
+23,`Copilot Code Review` button does not overflow with ellipsis in smaller panel sizes,Undescriptive Element,https://github.com/microsoft/vscode/issues/268823,Button text not truncated; user cannot determine action.
+24,Rich hover for chat history,Undescriptive Element,https://github.com/microsoft/vscode/issues/268199,Missing hover details reduces situational awareness.
+25,Todos don't truncate with elipses,Undescriptive Element,https://github.com/microsoft/vscode/issues/268047,Long text spills; user cannot see full message.
+26,Hide the 'Keep' 'Undo' and diff buttons on the working set until changes are complete,UX Smell,https://github.com/microsoft/vscode/issues/267866,"Non‑interactive disabled buttons clutter UI, confusing focus."
+27,Restyle the tool overlay to use secondary colors,,https://github.com/microsoft/vscode/issues/267864,Color style change; not a UX failure.
+28,Chat empty state history preview: Remove 'Show more...' from workspace history in command palette,UX Smell,https://github.com/microsoft/vscode/issues/267863,'Show more...' hides content; user experience is interrupted.
+29,All small buttons should have a height of 24 (minimum click-target for a11y),UX Smell,https://github.com/microsoft/vscode/issues/267862,Button height below accessibility target reduces usability.
+30,Update tool confirmation buttons to size 'small',UX Smell,https://github.com/microsoft/vscode/issues/267861,Larger button size improves touch target; current size hinders users.
+31,History is not hidden when not required,UX Smell,https://github.com/microsoft/vscode/issues/267522,Unclear history visibility leads to user frustration.
+32,Icon request: Copilot with in progress chat sessions,,https://github.com/microsoft/vscode/issues/267216,Icon request for progress; no immediate UX issue.
+33,VS Code Figma Compontent Update: Utilities,,https://github.com/microsoft/vscode/issues/266472,Utilities component diff; not a UX problem.
+34,VS Code Figma Compontent Update: Titlebar,,https://github.com/microsoft/vscode/issues/266471,Titlebar updates; no usability gap.
+35,VS Code Figma Compontent Update: Templates,,https://github.com/microsoft/vscode/issues/266470,Template differences; no UX flaw.
+36,VS Code Figma Compontent Update: Tabs,,https://github.com/microsoft/vscode/issues/266469,Tabs update; no direct UX concern.
+37,VS Code Figma Compontent Update: Suggest Widget,,https://github.com/microsoft/vscode/issues/266468,Suggest Widget update; no highlighted UX issue.
+38,VS Code Figma Compontent Update: Status bar,,https://github.com/microsoft/vscode/issues/266467,Status bar changes; purely visual.
+39,VS Code Figma Compontent Update: Sidebar,,https://github.com/microsoft/vscode/issues/266466,Sidebar diff; no UX shortfall.
+40,VS Code Figma Compontent Update: Settings,,https://github.com/microsoft/vscode/issues/266465,Settings diff; not a UX flaw.
+41,VS Code Figma Compontent Update: Quick Pick,,https://github.com/microsoft/vscode/issues/266464,Quick Pick updates; no usability gap.
+42,VS Code Figma Compontent Update: Progress,,https://github.com/microsoft/vscode/issues/266463,Progress updates; not a UX issue.
+43,VS Code Figma Compontent Update: Panel,,https://github.com/microsoft/vscode/issues/266462,Panel changes; no usability concern.
+44,VS Code Figma Compontent Update: Peek Views,,https://github.com/microsoft/vscode/issues/266461,Peek Views diff; no UX flaw.
+45,VS Code Figma Compontent Update: Notifications,,https://github.com/microsoft/vscode/issues/266460,Notifications update; no usability issue.
+46,VS Code Figma Compontent Update: Notebooks,,https://github.com/microsoft/vscode/issues/266458,Notebook styling; not an UX problem.
+47,VS Code Figma Compontent Update: List,,https://github.com/microsoft/vscode/issues/266457,List component updates; no usability gap.
+48,VS Code Figma Compontent Update: Labels,,https://github.com/microsoft/vscode/issues/266456,Labels update; not a UX issue.
+49,VS Code Figma Compontent Update: Hovers,,https://github.com/microsoft/vscode/issues/266455,Hovers updates; no immediate UX flaw.
+50,VS Code Figma Compontent Update: Extensions,,https://github.com/microsoft/vscode/issues/266454,Extensions component changes; no UX shortfall.
+51,VS Code Figma Compontent Update: Editor,,https://github.com/microsoft/vscode/issues/266453,"Only checklist items, no user experience issue identified."
+52,VS Code Figma Compontent Update: Dialog,,https://github.com/microsoft/vscode/issues/266452,"Checklist only, no UX problem."
+53,VS Code Figma Compontent Update: Activity Bar,,https://github.com/microsoft/vscode/issues/266450,"Just a list of items, no UX defect."
+54,Chat input field and context cleanup,,https://github.com/microsoft/vscode/issues/266449,Proposed UI change but no clear UX complaint.
+55,Chat History list remains after clearing history.,,https://github.com/microsoft/vscode/issues/266407,"Bug about history list, not a UX smell."
+56,Chat welcome history hovers overlap other items in the list,Overlooked Content,https://github.com/microsoft/vscode/issues/266373,"UI elements overlap, hiding content from users."
+57,SCM - customize is show of checkout branch/tag in sidebar for git,,https://github.com/microsoft/vscode/issues/266318,"Feature change, no UX deficit noted."
+58,Updating Figm Chat Component,,https://github.com/microsoft/vscode/issues/266262,Checklist items only.
+59,Revise agent mode placeholder text,Undescriptive Element,https://github.com/microsoft/vscode/issues/266075,Placeholder @_ misleads about its meaning.
+60,Remove chat.emptyChatState.enabled setting,,https://github.com/microsoft/vscode/issues/266074,"Removal of a setting, no UX complaint."
+61,Update options in chat split menu,Discoverability,https://github.com/microsoft/vscode/issues/266065,Chat split menu options are not easy to find.
+62,Improve Styling of chat.promptFilesRecommendations Display on Welcome Page,Styling,https://github.com/microsoft/vscode/issues/266047,Visual inconsistency causes jarring appearance.
+63,Extension pre-release and recommended modifiers are applied inconsistently,Undescriptive Element,https://github.com/microsoft/vscode/issues/266037,Inconsistent labels misinform users about status.
+64,Welcome view history should not allow opening chat twice,,https://github.com/microsoft/vscode/issues/265938,"Bug, not a UX smell."
+65,Explore options for terminology & labels around remote/background agents,Discoverability,https://github.com/microsoft/vscode/issues/265922,Terminology hampers user understanding.
+66,Explore user problems and provide UX improvement recommendations for making modes more usable,Discoverability,https://github.com/microsoft/vscode/issues/265919,Mode usage guidance is unclear.
+67,Issue Reporter has no Markdown preview,No Processing Page,https://github.com/microsoft/vscode/issues/265509,Missing markdown preview leaves users uncertain.
+68,general thinking part ux feedback,Overlooked Content,https://github.com/microsoft/vscode/issues/265415,Duplicated headers hide important info.
+69,Chat: Vertical grid alignment of tool calls,Overlooked Content,https://github.com/microsoft/vscode/issues/265369,Misaligned vertical spacing obscures alignment.
+70,Tree indent indicators/lines have strange placement,Overlooked Content,https://github.com/microsoft/vscode/issues/265136,"Indent lines misaligned, hiding hierarchy."
+71,AI Search has no empty state for no results,Empty State,https://github.com/microsoft/vscode/issues/265119,No feedback when no AI search results.
+72,Statusbar icon for worktrees,,https://github.com/microsoft/vscode/issues/264882,"Suggestion, not a defect."
+73,Cramped source control,Overlooked Content,https://github.com/microsoft/vscode/issues/264669,Cramped source control reduces readability.
+74,Want link to more info about copilot debug logs in issue reporter,Undescriptive Element,https://github.com/microsoft/vscode/issues/264659,Unclear link to debug logs confuses users.
+75,Alignment of `Open` and `Closed` feels off in issue reporter `Similar issues`,Overlooked Content,https://github.com/microsoft/vscode/issues/264651,Open/Closed label misalignment impairs legibility.
+76,History does not update when deleting chats,,https://github.com/microsoft/vscode/issues/264521,No issue described.
+77,Perhaps link could be a button with the same UI as the `Create on GitHub` button,,https://github.com/microsoft/vscode/issues/264482,No UX problem indicated.
+78,Selecting option `Preview on GitHub` could change permanently option `Create on GitHub` to it,,https://github.com/microsoft/vscode/issues/264472,No UX complaint.
+79,Issue reporter font size is larger than editor font size,Styling,https://github.com/microsoft/vscode/issues/264467,Font size inconsistency breaks visual harmony.
+80,Terminal pane close button can get hidden,Overlooked Content,https://github.com/microsoft/vscode/issues/264356,"Close button hidden, user cannot close terminal."
+81,Setting tab drop down not consistent,Undescriptive Element,https://github.com/microsoft/vscode/issues/264354,Mixed icon personality misleads expected action.
+82,No horizontal scrolling in activity and chat bar,Overlooked Content,https://github.com/microsoft/vscode/issues/264056,No horizontal scrolling hides tabs.
+83,Font size scaling should not apply to codicons,Styling,https://github.com/microsoft/vscode/issues/264039,Codicon scaling breaks pixel precision.
+84,Thought bottom padding not consistent,Overlooked Content,https://github.com/microsoft/vscode/issues/262973,Inconsistent padding disrupts visual rhythm.
+85,Remove the 'Keep' button in Chat Agent mode and use standard save behavior,Undescriptive Element,https://github.com/microsoft/vscode/issues/262495,Keep button confuses permanence of changes.
+86,"Git: Apply Stash picker, worktree is shown when closed",,https://github.com/microsoft/vscode/issues/261886,No UX issue.
+87,Too much margin above checkpoint line,Overlooked Content,https://github.com/microsoft/vscode/issues/261805,Excess margin wastes screen space.
+88,UI clarity: Discard changes and Open file icons are confusing,Undescriptive Element,https://github.com/microsoft/vscode/issues/261658,Confusing discard vs open icons.
+89,Repo name is not displayed in Source Control sidebar,Missing Information,https://github.com/microsoft/vscode/issues/261388,Repo name omitted; users can't differentiate repos.
+90,left scroll anchor does not work,,https://github.com/microsoft/vscode/issues/260920,"Bug, not a UX smell."
+91,Display the repository name in the tooltip when hovering over the repository in the Source Control section,Missing Information,https://github.com/microsoft/vscode/issues/260481,"Tooltip lacks repo name, causing confusion."
+92,Polish AI Usage Statistics Status Bar Icon: Reduce Size and Show Details on Hover,Styling,https://github.com/microsoft/vscode/issues/260349,Icon too large disrupts UI consistency.
+93,Feature Request: Allow Queued Prompts for Copilot Agent Chat,,https://github.com/microsoft/vscode/issues/260330,"Feature request, not a usability defect."
+94,Move the AI usage pill into the Copilot dashboard,Overlooked Content,https://github.com/microsoft/vscode/issues/260295,Relocated pill could hide details from users.
+95,Allow to pin secondary sidebar to stay maximised even when editors open,,https://github.com/microsoft/vscode/issues/259222,No usability problem identified.
+96,Chat participant descriptions should render in listbox and not require hover,Missing Information,https://github.com/microsoft/vscode/issues/259147,"Participant descriptions only on hover, hard to see context."
+97,Alias @ to # in Chat input to reference context,,https://github.com/microsoft/vscode/issues/259146,No UX concern mentioned.
+98,Adding context in Chat using vscode-copilot-chat repo adds a ton of unnecessary symbols,Overlooked Content,https://github.com/microsoft/vscode/issues/259144,"Unnecessary symbols clutter input, obscuring focus."
+99,add existing worktree,,https://github.com/microsoft/vscode/issues/258615,No issue.
+100,dense source control view with work trees,Overlooked Content,https://github.com/microsoft/vscode/issues/258565,Dense view makes hierarchy hard to read.
+101,Different icon for the third state (partially selected)?,Undescriptive Element,https://github.com/microsoft/vscode/issues/258460,The dash icon for partially selected nodes isn’t self‐explanatory.
+102,Feature Request: Support forking chat history,,https://github.com/microsoft/vscode/issues/258271,Feature request to fork chat history.
+103,Support for Chain of Thought tokens,,https://github.com/microsoft/vscode/issues/257104,Feature request for Chain of Thought tokens.
+104,Chat: Reflect multiple editor selections in current document bubble,,https://github.com/microsoft/vscode/issues/256702,"Bug with selection bubbles, not a UX smell."
+105,Review large context menu structures,,https://github.com/microsoft/vscode/issues/255626,"Request to review large context menus, a feature request."
+106,Revisit our boring progress indication,No Processing Page,https://github.com/microsoft/vscode/issues/255352,"Progress indicator is dull, lacking engaging feedback."
+107,Rendering code references in a less heavy manner,,https://github.com/microsoft/vscode/issues/255126,Suggestion to lighten code reference bubbles.
+108,Panel chat gear dropdown should have hints on hover,Undescriptive Element,https://github.com/microsoft/vscode/issues/255124,Gear dropdown entries lack hover hints.
+109,When Chat real estate is small (due to other windows/zoom) the placeholder text renders strangely,,https://github.com/microsoft/vscode/issues/253553,Placeholder rendering issue; not a general UX smell.
+110,Simplify and condense chat output for better readibility,,https://github.com/microsoft/vscode/issues/253459,Feedback on chat output readability; could be a design tweak.
+111,Make blue button hover feedback consistent,Unresponsive Element,https://github.com/microsoft/vscode/issues/253447,"Blue button hover feedback inconsistent, feels unresponsive."
+112,Generate instructions seems wrongly located,Undescriptive Element,https://github.com/microsoft/vscode/issues/253327,"Generate instructions button behaves oddly, unclear purpose."
+113,"VS Code does not differ file.php and Class.php, it should be different icon",Undescriptive Element,https://github.com/microsoft/vscode/issues/252975,"File and Class icons look the same, can't distinguish."
+114,Git push does not provide feedback or success/fail confirmation,No Processing Page,https://github.com/microsoft/vscode/issues/252919,"Git push lacks visual status, no success/fail feedback."
+115,Auto mode,,https://github.com/microsoft/vscode/issues/252795,Auto mode configuration – feature request.
+116,Allow custom chat modes to have custom colors,,https://github.com/microsoft/vscode/issues/252341,Custom chat mode color picker – feature request.
+117,Agent mode: Overflow behavior isn't great,,https://github.com/microsoft/vscode/issues/252164,Overflow behavior issue – more of a layout tweak.
+118,Custom modes should have a `name` attribute in frontmatter,Undescriptive Element,https://github.com/microsoft/vscode/issues/251943,"Custom mode’s name frontmatter missing, unclear in dropdown."
+119,Run command confirmation can have some UX styling,Undescriptive Element,https://github.com/microsoft/vscode/issues/251710,Run command confirmation lacks clear visual distinction.
+120,Re-think the Chat view welcome,Overlooked Content,https://github.com/microsoft/vscode/issues/251187,Chat welcome page contains too much irrelevant text users skip.
+121,Add full set of color tokens for chat panel,,https://github.com/microsoft/vscode/issues/251146,Show context size – feature request.
+122,Unhelpful alert dialog when encountering pre-commit errors,,https://github.com/microsoft/vscode/issues/250999,Tokenize UI system – feature request.
+123,Icons misalignment,,https://github.com/microsoft/vscode/issues/250806,"Bulk tool call collapse – potential UI improvement, not a clear smell."
+124,UX bug: unexpected hover behaviour - attached file,Unresponsive Element,https://github.com/microsoft/vscode/issues/250490,"Cell output drag not indicated, feels unresponsive."
+125,Retry experience not good,Unresponsive Element,https://github.com/microsoft/vscode/issues/250473,"Custom actions/menus misaligned, usability suffers."
+126,Chat response border not visually appealing,Undescriptive Element,https://github.com/microsoft/vscode/issues/250384,Send message split button missing context menu – unclear.
+127,🚀 Feature Request: Make Git Inline Action Icons (Stage/Revert/etc.) Position Configurable,Undescriptive Element,https://github.com/microsoft/vscode/issues/250287,Tools icon lacking state indicator.
+128,Transparency around tokens use,Undescriptive Element,https://github.com/microsoft/vscode/issues/249983,Active breakpoints missing visual marker.
+129,Chat: Add UX/UI to highlight changes to URLs and key variables,Unresponsive Element,https://github.com/microsoft/vscode/issues/249587,Custom model picker interactions require extra clicks.
+130,Improve VS Code design resources in Figma,Unresponsive Element,https://github.com/microsoft/vscode/issues/249227,Copilot pickers alignment causes confusion.
+131,Show context size for each Copilot model,,https://github.com/microsoft/vscode/issues/248860,MCP show configuration figure – feature.
+132,Tokenize VS Code UI,Undescriptive Element,https://github.com/microsoft/vscode/issues/248725,Chat Context icons per item clutter; better grouped icons.
+133,Chat: Improve inline add context menu,,https://github.com/microsoft/vscode/issues/248540,Activity bar top design – cosmetic tweak.
+134,Add Context Menus to Figma Toolkit,,https://github.com/microsoft/vscode/issues/248409,"Color contrast issue – bug, not a UX smell."
+135,Quick pick UX | Difficult to discover & use drag feature,,https://github.com/microsoft/vscode/issues/248391,MCP input preview confusion – feature.
+136,Let me see the result of built-in fetch tool call,,https://github.com/microsoft/vscode/issues/248039,Adding a 'danger' color – feature.
+151,Add `project icon` for `IntelliJ IDEA`,,https://github.com/microsoft/vscode/issues/246378,Feature request – no UX defect.
+152,MCP: Better discovery/registry and one-click installation flow,,https://github.com/microsoft/vscode/issues/245717,Improvement request – not a UX smell.
+153,Polish the workspace index indicator,Misleading Link,https://github.com/microsoft/vscode/issues/245332,Large blue link is confusing; users unsure of destination.
+154,Accessibility - High contrast theme on activity bar inconsistent,,https://github.com/microsoft/vscode/issues/245121,"Inconsistency, but not a usability defect."
+155,Edits: undo/redo does not restore decoration for the edit,,https://github.com/microsoft/vscode/issues/245108,"Bug, not a UX smell."
+156,Full set of Programming language Profile Icons,Undescriptive Element,https://github.com/microsoft/vscode/issues/244926,Missing language icons reduce clarity.
+157,"Update status-bar item icon & text spacing to not use spaces ("" "")",,https://github.com/microsoft/vscode/issues/244876,"UI polish, not a UX smell."
+158,SCM status bar: Show pin indicator when pinned,Undescriptive Element,https://github.com/microsoft/vscode/issues/244563,Missing pin indicator causes ambiguity.
+159,Unsure how to read longer hints in terminal suggestion widget,Undescriptive Element,https://github.com/microsoft/vscode/issues/244536,"Hint text overflows, users cannot read."
+160,Use same hover group for all copilot actions near input,,https://github.com/microsoft/vscode/issues/244462,"Consistency improvement, not a UX smell."
+161,VIsual bug | Applying Edits widget uneven padding and redundant animations,,https://github.com/microsoft/vscode/issues/243979,"Visual glitch, not a UX smell."
+162,Checkbox text should be click-able,Unresponsive Element,https://github.com/microsoft/vscode/issues/243779,"Checkbox text can't be clicked, fails expected interaction."
+163,Improve `Select for Compare`,Undescriptive Element,https://github.com/microsoft/vscode/issues/243150,Compare view fails to show which file is left/right.
+164,Code snippet editor has many editor features that are not working,,https://github.com/microsoft/vscode/issues/243112,"Feature request, no UX defect."
+165,"""Insert At Cursor"" should be disabled when no text editor is opened",,https://github.com/microsoft/vscode/issues/243110,"Bug, not a UX smell."
+166,Git: background color of current commit in graph,Undescriptive Element,https://github.com/microsoft/vscode/issues/242734,Current commit not highlighted; unclear focus.
+167,Notifications hide the chat bottom of Copilot Chat,Unresponsive Element,https://github.com/microsoft/vscode/issues/242071,Notifications hide chat; UI becomes unusable.
+168,Test error decoration glitch when zoomed in,,https://github.com/microsoft/vscode/issues/241441,"Bug, not a UX smell."
+169,Banner for workspace trust is not significant enough and themed as info-only,Undescriptive Element,https://github.com/microsoft/vscode/issues/240856,Invisible banner makes critical info easy to miss.
+170,SCM - Setting for adjusting branch names/tags,Undescriptive Element,https://github.com/microsoft/vscode/issues/240322,Truncated branch names hide important details.
+171,"Git - Fixed alignment-column for git 'inline blame' annotations, regardless of line-length",,https://github.com/microsoft/vscode/issues/240067,"Configuration suggestion, not a UX defect."
+172,Filter input on the Output view hides all other panel tabs,Undescriptive Element,https://github.com/microsoft/vscode/issues/239004,Filter input obscures other panel tabs.
+173,GitHub - Consider using modal dialog,,https://github.com/microsoft/vscode/issues/238975,"Style suggestion, not a UX smell."
+174,SCM - Last row in these hovers are not consistent,Undescriptive Element,https://github.com/microsoft/vscode/issues/238959,"Hover rows inconsistent, confusing the user."
+175,Explore a QuickPick-like experience close to what invoked it,,https://github.com/microsoft/vscode/issues/238095,"Design improvement, not a UX defect."
+176,Statusbar has strange theme defaults,Undescriptive Element,https://github.com/microsoft/vscode/issues/235718,Missing hover feedback reduces interactivity cues.
+177,SCM Graph - better handle long branch names in the hover,Undescriptive Element,https://github.com/microsoft/vscode/issues/235620,"Long branch names truncated in hover, losing context."
+178,Inline chat message/buttons should be aligned with the right edge of the input box,Undescriptive Element,https://github.com/microsoft/vscode/issues/235405,Misaligned buttons break expected layout.
+179,Very small buttons for expandable hover,Unresponsive Element,https://github.com/microsoft/vscode/issues/235170,Buttons too small; hard to click.
+180,SCM Graph - Add horizontal scrollbar for source control graph,Undescriptive Element,https://github.com/microsoft/vscode/issues/234879,"No horizontal scrollbar, content inaccessible."
+181,"With the `Light+` theme,  the input area of Chat in Editor is indistinguishable from the background when out of focus",Undescriptive Element,https://github.com/microsoft/vscode/issues/234866,"Chat input area blends with background, hard to see."
+182,Git - Git blame editor decoration color,,https://github.com/microsoft/vscode/issues/234568,"Just a color adjustment, no UX issue."
+183,Horizontal scroll position resets in file when seek peek definition called,,https://github.com/microsoft/vscode/issues/234270,"Bug, not a UX smell."
+184,SCM - Add margin in file tree,,https://github.com/microsoft/vscode/issues/234083,"Minor UI improvement, not a UX defect."
+185,vscode window is large then it seems. transparent unclickable area around all windows.,Unresponsive Element,https://github.com/microsoft/vscode/issues/233904,Transparent area blocks clicks around window edges.
+186,Zooming into types moves the +/- buttons off screen,Unresponsive Element,https://github.com/microsoft/vscode/issues/233556,"Buttons move off screen, unusable."
+187,Inline chat code blocks extend more to right than chat input and also overlap the scroll bar,Unresponsive Element,https://github.com/microsoft/vscode/issues/233205,"Code blocks overlap scrollbar, hide content."
+188,Toggling views/panels has inconsistent focus behaviour,Unresponsive Element,https://github.com/microsoft/vscode/issues/232790,Inconsistent focus prevents expected navigation.
+189,SCM - move action buttons on inline window to the left,,https://github.com/microsoft/vscode/issues/231638,"Preferred positioning suggestion, not a UX defect."
+190,The chat scroll to bottom button doesn't align with the extension detail scroll to top button,,https://github.com/microsoft/vscode/issues/231440,"Button alignment issue, not a UX smell."
+191,Move cursor when adding secondary cursors,,https://github.com/microsoft/vscode/issues/229762,"Complex logic, not a UX defect."
+192,SCM Graph - Unsure how to tell when graph is locked to a repository,Undescriptive Element,https://github.com/microsoft/vscode/issues/229643,No indicator of locked repository state.
+193,SCM Graph - Title and Icons of SCM Graph actions,Undescriptive Element,https://github.com/microsoft/vscode/issues/229574,Action titles ambiguous; no clear meaning.
+194,"SCM Graph - Make repository picker a dropdown with a ""More..."" entry",,https://github.com/microsoft/vscode/issues/229501,"Dropdown redesign, not a UX defect."
+195,SCM Graph - Limit Number Of Lines,,https://github.com/microsoft/vscode/issues/229497,"Line limit suggestion, not a UX defect."
+196,Multifile diff editor leaks models and editor after closing and hiding,,https://github.com/microsoft/vscode/issues/228367,"Memory leak bug, not a UX smell."
+197,SCM Graph - Should selecting an item in the scm graph highlight the lines similar to indent guides in the editor?,Undescriptive Element,https://github.com/microsoft/vscode/issues/226816,Missing line highlight reduces clarity when scrolling.
+198,Show documentation when hovering on the autocompletion dropdown list item,,https://github.com/microsoft/vscode/issues/226752,"Adding documentation on hover, not a UX defect."
+199,SCM - show repositories view by default with multiple repositories,,https://github.com/microsoft/vscode/issues/226706,"Visibility improvement, not a UX defect."
+200,Make dropdown control looks more consistent with other parts,,https://github.com/microsoft/vscode/issues/224780,"Dropdown consistency suggestion, not a UX defect."
+201,SCM Graph - View commit action on multiple commits is showing no changed files,,https://github.com/microsoft/vscode/issues/223307,"The issue is a functional bug, not a UX deficiency."
+202,Profiles editor is not accessible / usable by keyboard,Unresponsive Element,https://github.com/microsoft/vscode/issues/223297,"Keyboard focus not reachable, making the widget unusable without a mouse."
+203,SCM Graph - high contrast colors,,https://github.com/microsoft/vscode/issues/218227,Issue concerns color contrast; not a recognized UX smell type.
+204,vscode.dev: better focus for the git password entry field when git pushing from terminal,Undescriptive Element,https://github.com/microsoft/vscode/issues/216913,"Input field focus is invisible, users can’t identify where to enter data."
+205,Make Workspace Extensions more intuitive to find and activate,Overlooked Content,https://github.com/microsoft/vscode/issues/216433,Extensions hard to discover; important items not easily found.
+206,I am trying to find the resize handle in diff editor every time,Undescriptive Element,https://github.com/microsoft/vscode/issues/214195,Resizing handles are hard to locate due to poor visual cueing.
+207,Can't click on links in streaming chat response,Unresponsive Element,https://github.com/microsoft/vscode/issues/212853,"Links are not clickable until loading completes, blocking interaction."
+208,Two code-actions entry points with same icon,Misleading Link,https://github.com/microsoft/vscode/issues/211700,Duplicate icons cause confusion about their distinct actions.
+209,Find/replace bar obscures top lines in narrow editors,Undescriptive Element,https://github.com/microsoft/vscode/issues/211290,"Find/replace bar hides visible text, user cannot see needed content."
+210,Weird looking Output selector menu,Undescriptive Element,https://github.com/microsoft/vscode/issues/208026,Output menu styling makes items hard to read and navigate.
+211,"SCM - Hidden local changes indicator ""*"" in ""source control repositories"" view",Overlooked Content,https://github.com/microsoft/vscode/issues/207814,Local changes indicator is hidden when panel shrinks; important status lost.
+212,Support controlling whether edits are pre-ticked in WorkspaceEdits with needsConfirmation=true,,https://github.com/microsoft/vscode/issues/207578,"Requirement for pre-ticked edits is a feature, not a UX smell."
+213,Collapsed markdown cell icons misalignment,Undescriptive Element,https://github.com/microsoft/vscode/issues/206827,"Collapsible icons are misaligned, causing visual confusion."
+214,Git - Display blame information in the editor gutter,,https://github.com/microsoft/vscode/issues/203841,"Blame information feature request, not a UX deficiency."
+215,Align styling of toggled actions and toggled buttons,Undescriptive Element,https://github.com/microsoft/vscode/issues/200810,"Different toggled styles are inconsistent, confusing users."
+216,Hover block highlight design consistency,Undescriptive Element,https://github.com/microsoft/vscode/issues/199787,"Hover highlights differ across contexts, inconsistent visual cue."
+217,Git - Docs for commiting via multi-line git are unclear on how to finish the commit,Undescriptive Element,https://github.com/microsoft/vscode/issues/199097,Docs lack clear instructions on finishing commits; users may misinterpret.
+218,Don't hide useful information from the suggestions list,Overlooked Content,https://github.com/microsoft/vscode/issues/199029,"Suggestion list truncates useful information, hiding important details."
+219,SCM - gutter click area is smaller than its visual appearance,Unresponsive Element,https://github.com/microsoft/vscode/issues/197883,"Gutter hit area is too small, user clicks have no effect."
+220,"debug console stylings and features, better log-row separation",Undescriptive Element,https://github.com/microsoft/vscode/issues/197803,"Debug console rows lack visual separation, hard to read logs."
+221,Comments sync/resume is flaky and has unexpected UX,,https://github.com/microsoft/vscode/issues/196582,Sync behavior issue not a UX smell per defined list.
+222,Completion widget assigns too much space to details and not enough to the completion item label,Undescriptive Element,https://github.com/microsoft/vscode/issues/195555,"Completion widget layout overemphasizes details, hides label."
+223,SCM - Visually distinguishing Staged Changes from Changes in Tree View,Undescriptive Element,https://github.com/microsoft/vscode/issues/194060,"Staged vs unstaged items not visually distinct, confusing users."
+224,Support two variants of `LanguageStatusItem#text`,,https://github.com/microsoft/vscode/issues/192880,Extending API variants is a technical feature.
+225,Better distinguish overlapping arrows,Unresponsive Element,https://github.com/microsoft/vscode/issues/191833,Overlapping arrows can’t be easily interacted with due to visual overlap.
+226,Show squigglies on collapsed regions containing errors or warnings (#120989),,https://github.com/microsoft/vscode/pull/190682,Squiggly display on collapsed regions is a feature request.
+227,Style fixes for toggled state action bar buttons,Undescriptive Element,https://github.com/microsoft/vscode/issues/190498,"Toggled action bar button styles inconsistent, confusing users."
+228,Explore inline word highlighting in info texts,,https://github.com/microsoft/vscode/issues/188657,Inline word highlighting is a feature suggestion.
+229,Support input validation in quick pick,,https://github.com/microsoft/vscode/issues/187863,Quick pick validation is a feature implementation.
+230,Infinite modal from vscode.dev,Unresponsive Element,https://github.com/microsoft/vscode/issues/186453,"Infinite modal prevents closing, blocking user action."
+231,files.Readonly has weak graphical support,Undescriptive Element,https://github.com/microsoft/vscode/issues/185515,"Readonly file icons are weakly visible, users can’t easily identify status."
+232,Explore improvements to settings UI,Undescriptive Element,https://github.com/microsoft/vscode/issues/181976,Settings UI overwhelming and hard to navigate.
+233,Git - The sync-branch button icon does not rotate about its centerpoint,Undescriptive Element,https://github.com/microsoft/vscode/issues/181245,"Sync-branch button rotation not centered, confusing animation."
+234,SCM - highlight repositories with uncommitted changes,Overlooked Content,https://github.com/microsoft/vscode/issues/180820,"Uncommitted changes not highlighted, repository status lost."
+235,"Explore alternative wording for ""Continue On"" explanations",Undescriptive Element,https://github.com/microsoft/vscode/issues/180106,Text explanation wording could mislead or confuse users.
+236,Always show arrow in suggest item,Misleading Link,https://github.com/microsoft/vscode/issues/178012,"Hidden arrow hides hover trigger, preventing discovery."
+237,Differentiate breakpoint types more clearly,Misleading Link,https://github.com/microsoft/vscode/issues/177221,"Breakpoint icons too similar, confusing breakpoint types."
+238,Workspace Trust - should be made accessible more easily.,Undescriptive Element,https://github.com/microsoft/vscode/issues/174823,"Accessing trust settings requires many steps, non‑intuitive."
+239,Provide icon buttons for common source control actions,Overlooked Content,https://github.com/microsoft/vscode/issues/174088,"Common source control actions missing, difficult to find."
+240,SCM - add support for horizontal scrolling,Overlooked Content,https://github.com/microsoft/vscode/issues/173019,"Horizontal scrolling is absent, preventing full view of long items."
+241,Source control buttons should not shift after calculating errors/problems,Unresponsive Element,https://github.com/microsoft/vscode/issues/172072,"Buttons shift after error calculation, causing misclicks."
+242,Provide a list of deduped and nicely named codicons for use in product,,https://github.com/microsoft/vscode/issues/171076,List of codicons is an enhancement request.
+243,VSCode does not remember the size of the suggest widget when the size is reset with double click,,https://github.com/microsoft/vscode/issues/170491,"Suggest widget size persistence is a feature, not a UX smell."
+244,Group Linked Files in One Tab with Dropdown,,https://github.com/microsoft/vscode/issues/170400,Tab grouping of related files is a feature request.
+245,Explore UI density modes,,https://github.com/microsoft/vscode/issues/168671,UI density mode is a feature discussion.
+246,Align primary buttons alignment,Undescriptive Element,https://github.com/microsoft/vscode/issues/168471,Primary button alignment inconsistent across contexts.
+247,Introduce setting for font size,,https://github.com/microsoft/vscode/issues/167525,Font size setting proposal is a feature change.
+248,Git: Source Control annoying unexpected Content Shift,Unresponsive Element,https://github.com/microsoft/vscode/issues/167333,"Content shifts unexpectedly, causing misclicking."
+249,Remote loading state for Explorer view,No Processing Page,https://github.com/microsoft/vscode/issues/167294,"Explorer shows empty space during remote load, lacking user feedback."
+250,Explore a lightweight notification UI to display confirmation feedback for actions to users,,https://github.com/microsoft/vscode/issues/166891,Lightweight notification UI is a feature idea.
+251,Extension pack view makes actual readme content very small when the editor group is small,,https://github.com/microsoft/vscode/issues/166627,Layout shrink of readme text is a visual issue outside the predefined UX‑smell categories.
+252,Timeline filename doesn't show when Timeline is moved to the bottom Panel,,https://github.com/microsoft/vscode/issues/166000,"Missing filename when timeline pinned is an informational omission, not covered by the list."
+253,Allow more control of the status bar text for a LanguageStatusItem,,https://github.com/microsoft/vscode/issues/165940,"The lack of an API for status‑bar text is a feature gap, not a UX pattern."
+254,Walkthrough tile buttons have too much styling variation,,https://github.com/microsoft/vscode/issues/165847,Styling variation of walkthrough icons is a consistency issue not listed.
+255,Actions to add paths to include/exclude in search results unclear wording,Misleading Link,https://github.com/microsoft/vscode/issues/163953,"Wording of include/exclude actions is unclear, confusing users about the link’s purpose."
+256,Source control svg icons stay dark when the repository row is selected.,Unresponsive Element,https://github.com/microsoft/vscode/issues/163748,"Repository row icon fails to change when selected, giving no visual feedback."
+257,Code action widget status bar border does not match editor hovers,,https://github.com/microsoft/vscode/issues/162688,Border mismatch isn’t a listed UX‑smell type.
+258,Define and apply guidance for icon toggle states,,https://github.com/microsoft/vscode/issues/162595,"Guidance request concerns documentation, not an UX‑smell."
+259,Make tree view more stable,,https://github.com/microsoft/vscode/issues/162428,"Tree view jumpiness is a UI bug, not a listed UX‑smell."
+260,Spinning icons are blurry on standard DPI screens,,https://github.com/microsoft/vscode/issues/162382,"Blurry spinning icons are a visual defect, not part of the categories."
+261,Terminal hover positioning is unfriendly,Unresponsive Element,https://github.com/microsoft/vscode/issues/162336,Terminal hover ignores mouse X and appears unresponsive to user movement.
+262,Code action widget accessibility strangeness,,https://github.com/microsoft/vscode/issues/162126,Focus behavior of code‑action list isn’t a defined UX‑smell.
+263,Edit session semantics are not easy to understand,,https://github.com/microsoft/vscode/issues/162117,"Semantics of edit sessions are informational, not a UX‑smell."
+264,Hard to tell that Edit Sessions were turned on with two different auth providers,,https://github.com/microsoft/vscode/issues/162025,Difficulty knowing session status is not a listed UX‑smell.
+265,Welcome views should use primary + secondary button styles,,https://github.com/microsoft/vscode/issues/158530,"Primary/secondary button style preference is a design choice, not a UX‑smell."
+266,Can the inputbox show a red outline for invalid filenames?,No Client Validation,https://github.com/microsoft/vscode/issues/156630,Validation only after submit; no inline error outline during typing.
+267,Progressive behavior of the title bar elements,,https://github.com/microsoft/vscode/issues/156377,Progressive element visibility isn’t among the defined smells.
+268,Use modal dialog for open repo message,,https://github.com/microsoft/vscode/issues/155470,Changing a dialog type from notification isn’t a UX‑smell per list.
+269,Commit split button divider causes loss of selection,,https://github.com/microsoft/vscode/issues/154816,Selection loss on split button divider is irrelevant to the smell list.
+270,Commit operation was cancelled notification might not be needed,,https://github.com/microsoft/vscode/issues/153666,Redundant cancel notification isn’t a listed UX‑smell.
+271,Git - should origin appear first in the list?,,https://github.com/microsoft/vscode/issues/153542,Repository order preference isn’t a UX‑smell type.
+272,Git - Show Banner To Close The File To Continue,,https://github.com/microsoft/vscode/issues/153509,Banner context doesn’t map to a defined UX‑smell.
+273,"Git - SCM foldable regions like ""Changes"" should have their actions disabled when they do nothing",Unresponsive Element,https://github.com/microsoft/vscode/issues/153508,Toggle is active but does nothing; missing feedback to user.
+274,Reverse the visual logic of text link decorators,Undescriptive Element,https://github.com/microsoft/vscode/issues/153081,"Link styling relies only on color, making its purpose unclear."
+275,Inconsistent use of beaks in tooltip and hovers,,https://github.com/microsoft/vscode/issues/153039,Inconsistent beak usage isn’t a listed UX‑smell.
+276,A change in VScode makes it confusing for a user to switch the to a different PowerShell environment in the Integrated Terminal.,,https://github.com/microsoft/vscode/issues/152862,Hidden control for PowerShell env is out of scope for the categories.
+277,Go To Source Definition UX improvements,,https://github.com/microsoft/vscode/issues/152252,Go To Source UX details aren’t a defined smoke type.
+278,margin of context between right and left are different in notebook,,https://github.com/microsoft/vscode/issues/149264,"Context margin difference is a layout nuance, not a listed UX‑smell."
+279,Scrolling suggestion docstrings with PgUp/PgDn does not work when only one suggestion,,https://github.com/microsoft/vscode/issues/146787,PgUp/PgDn scrolling issue isn’t on the list.
+280,Syncing changes dialog shows wrong icon,Wrong Default Value,https://github.com/microsoft/vscode/issues/146676,Error dialog icon uses warning instead of error; default mis‑specified.
+281,Indicate filtered state on Timeline view,Unresponsive Element,https://github.com/microsoft/vscode/issues/145769,"Filtered state not visually shown, so UI doesn’t reflect current state."
+282,QuickInput error aligns weirdly,,https://github.com/microsoft/vscode/issues/145672,Alignment oddities don’t match any defined smell.
+283,"Toggle all files in ""refactor previews""",,https://github.com/microsoft/vscode/issues/144893,"Preview toggle is a feature request, not a UX‑smell."
+284,Align editor find widget with the notebook find widget,,https://github.com/microsoft/vscode/issues/144851,"Editor find widget alignment is an aesthetic, not a listed issue."
+285,Dialog asking to copy or add workspace folder could mention target,Undescriptive Element,https://github.com/microsoft/vscode/issues/144148,"Dialog lacks target info, confusing the user's action intent."
+286,Refactor preview: not all checkboxes should be tabstops,,https://github.com/microsoft/vscode/issues/143736,"Checkbox tabstop design belongs to accessibility, not listed."
+287,Add status bar for parameter hints,,https://github.com/microsoft/vscode/issues/142895,"Parameter hint status bar is a feature, not a UX‑smell."
+288,SCM - hard to see the file list visual structure,,https://github.com/microsoft/vscode/issues/141078,File list structure problems don’t fit the categories.
+289,Support no value for editorSuggestWidget.selectedIconForeground,,https://github.com/microsoft/vscode/issues/139652,Missing null value for color option isn’t a UX‑smell.
+290,Different breakpoint marker for unverified breakpoint before debug session start,Wrong Default Value,https://github.com/microsoft/vscode/issues/135105,Breakpoint icon misleadingly shows registered status before verification.
+291,Improve UX when showing raw cell output,,https://github.com/microsoft/vscode/issues/134309,Raw cell output scrolling isn't a listed UX‑smell.
+292,Improve Buttons in SVC Conflict Resolution,,https://github.com/microsoft/vscode/issues/133589,Button arrangement adjustments are feature requests.
+293,[FR] Filter commands by source improvements,,https://github.com/microsoft/vscode/issues/131351,"Command filtering improvement is a feature, not a smell."
+294,Configurable peek window position,,https://github.com/microsoft/vscode/issues/131094,Peek window placement is a configuration feature.
+295,Improve discoverability of available/installable output renderers for given mime types,,https://github.com/microsoft/vscode/issues/131031,Discoverability of renderers is a feature enhancement.
+296,Controlling vertical space between output elements.,,https://github.com/microsoft/vscode/issues/130287,"Whitespace control is a layout tweak, not a defined smell."
+297,Label activity bar icons so we can tell what they are,Undescriptive Element,https://github.com/microsoft/vscode/issues/130051,"Sidebar icons lack labels, making functionality unclear."
+298,"Font size for the extra info in suggestion list became smaller and can't be changed, causing problems with some fonts",Wrong Default Value,https://github.com/microsoft/vscode/issues/128461,Suggestion list font size smaller than expected; default not appropriate.
+301,More obvious UI for output mimetype selector,Undescriptive Element,https://github.com/microsoft/vscode/issues/126610,"Icon for changing output type is unclear, users don’t know its function."
+302,Components that offer to open an editor should specify the `override` that makes most sense,,https://github.com/microsoft/vscode/issues/124498,"Issue concerns correct editor opening logic, not a UX clue."
+303,Consider using focus-within for showing actions in scm,,https://github.com/microsoft/vscode/issues/122016,"Refining keyboard‑focus styles is a minor tweak, not a UX defect."
+304,"""Reopen folder using..."" should use a more dedicated ux solution, not notifications",Overlooked Content,https://github.com/microsoft/vscode/issues/121805,"Important reopen‑folder UI presented only as notifications, easy to miss."
+305,Notebook cell focus feedback should disappear when clicking the empty view content or somewhere else,,https://github.com/microsoft/vscode/issues/121440,"Persistent focus outline only disappears via Escape, but not a classic UX mistake."
+306,Update enable/disable setting descriptions,Undescriptive Element,https://github.com/microsoft/vscode/issues/120559,Enable/disable wording in settings is confusing and unclear.
+307,Can not select text in markdown cell,,https://github.com/microsoft/vscode/issues/120370,Bug affecting text selection in Markdown preview.
+308,Debug: current stopped line should indicate better?,,https://github.com/microsoft/vscode/issues/119492,"Visual clutter from many highlighted lines, not a UX smell per se."
+309,Design exploration for improving experience for new users,,https://github.com/microsoft/vscode/issues/115641,"Design exploration, not a confirmed UX flaw."
+310,Native Notebooks - Collapsing output from bottom leads to incorrect scroll location,,https://github.com/microsoft/vscode/issues/114866,"Scrolling after collapse is a functional issue, not a UX smell."
+311,SCM - option to prefer repo name,Undescriptive Element,https://github.com/microsoft/vscode/issues/113401,Displaying repo name vs branch name can be confusing for users.
+312,Render new lines in suggest widget details,,https://github.com/microsoft/vscode/issues/109937,"Line break loss in detail view is a visual defect, not a UX smell."
+313,Suggest detail does not shrink to fit content when resized,,https://github.com/microsoft/vscode/issues/109731,"Resize behaviour of detail view – UI glitch, not a fixed smell."
+314,Suggest widget: Details view doesn't resize width to fit content,,https://github.com/microsoft/vscode/issues/109477,Width resizing of detail view is a layout bug.
+315,Safari/iPadOS: UI affordance for non default cursor style,Undescriptive Element,https://github.com/microsoft/vscode/issues/108832,"Custom cursor style not available on iOS, confusing for users."
+316,Option to combine tabs and title bar,Undescriptive Element,https://github.com/microsoft/vscode/issues/107123,Combining tabs and title bar reduces clarity of available controls.
+317,Tweak peek inside notebooks,,https://github.com/microsoft/vscode/issues/101513,"Peek UI layout improvements, not an identified UX flaw."
+318,Support reparenting views during drag and drop without destroying and recreating them,Unresponsive Element,https://github.com/microsoft/vscode/issues/100147,Missing drag‑cursor feedback confused users during drag‑and‑drop.
+319,"Ellipsis in search viewlet shows more UI, not commands",Misleading Link,https://github.com/microsoft/vscode/issues/99892,"Ellipsis reveals more UI than expected, confusing user expectations."
+320,Improve rendering of find matches touching each other,,https://github.com/microsoft/vscode/issues/95425,Finding matches bug; not a UX smell.
+321,Minor UI inconsistencies: Input theme references,,https://github.com/microsoft/vscode/issues/93024,"Input theme reference inconsistencies, not a UX flaw."
+322,Improve parameter hints UX,Undescriptive Element,https://github.com/microsoft/vscode/issues/92174,Parameter hint UI is too wide and confusing.
+323,Find/replace icons are not intuitive,Undescriptive Element,https://github.com/microsoft/vscode/issues/91211,Find/replace icons are unintuitive; non‑descriptive.
+324,CodeIcon: in documentation hover could get some polish,,https://github.com/microsoft/vscode/issues/89497,"Separation of icon and wording in hover hover, not a UX smell."
+325,Rename refactoring context actions work on the entire input,,https://github.com/microsoft/vscode/issues/89414,"Correct action scope, not a UX flaw."
+326,Expose a dropdown on the sidebar for extensions,,https://github.com/microsoft/vscode/issues/89243,"Dropdown suggestion is a feature request, not an existing smell."
+327,Improve header(h1/h2/h3) styling in hover markdown,,https://github.com/microsoft/vscode/issues/88417,"Header style improvement, not a UX defect."
+328,Suggest widget has greyscale rendering,,https://github.com/microsoft/vscode/issues/86184,"Greyscale rendering is a bug, not a UX smear type."
+329,"Make `editor.gotoLocation.multiple: ""goto""` state UX more discoverable",Overlooked Content,https://github.com/microsoft/vscode/issues/74585,Goto‑location state indicator is hidden in status bar.
+330,Wasted space in the multiline search input,Unmatched Input Size,https://github.com/microsoft/vscode/issues/64328,Multiline search input wastes space and feels oversized.
+331,Workspace ... scrollbar area is totally invisible,,https://github.com/microsoft/vscode/issues/43936,"Scrollbar invisibility is a visual issue, not a smell category."
+332,Expose git diff functions outside of overflow menu,,https://github.com/microsoft/vscode/issues/43862,Feature request to expose Git diff actions.
+333,Support workspace projects / folders under different colors in sidebar and tabs,,https://github.com/microsoft/vscode/issues/31308,Coloring of workspace folders is a visual improvement.
+334,Provide Task Runner viewlet,,https://github.com/microsoft/vscode/issues/28235,Task runner viewlet proposal.
+335,Marked brackets range on scrollbar,,https://github.com/microsoft/vscode/issues/26604,Marked brackets on scrollbar is a feature suggestion.
+336,Drop cursor missing if drop location === current cursor location,Unresponsive Element,https://github.com/microsoft/vscode/issues/25401,No drop cursor when dropping at current location.
+337,Editor drag and drop mouse feedback missing,Unresponsive Element,https://github.com/microsoft/vscode/issues/25391,Missing mouse cursor during editor drag‑and‑drop.
+338,Problem saving keybindings,,https://github.com/microsoft/vscode/issues/25356,Keybindings save issue is a functional bug.
+339,Symbol outline multi-line highlight is visually inconsistent when interleaved with code lens,,https://github.com/microsoft/vscode/issues/23921,Highlight visual inconsistency with code lens is a UI glitch.
+340,Feature request: highlight problem indicator with color when problems exist,,https://github.com/microsoft/vscode/issues/22346,Highlighting problem indicators is a suggestion.
+341,Outline matching selections instead of highlight,,https://github.com/microsoft/vscode/issues/21898,Outline matching selections request.
+342,Option to render proper scrollbar,,https://github.com/microsoft/vscode/issues/15106,Scrollbar visual options are a feature request.
+343,Triggering actions.find causes active match to lose its highlight.,,https://github.com/microsoft/vscode/issues/15067,Active match highlight loss is a bug.
+344,Mac: Provide a setting to hide the title bar and inline the window controls,,https://github.com/microsoft/vscode/issues/12377,Mac title bar inline setting is a feature request.
+345,Offer code mark styles and gutter marks,,https://github.com/microsoft/vscode/issues/9209,Code mark styles and gutter marks suggestion.
+346,Show quick open results as preview while navigating through them,,https://github.com/microsoft/vscode/issues/8939,Quick open preview behaviour is a feature request.
+347,Add find all button,,https://github.com/microsoft/vscode/pull/7559,Add find all button is a UI improvement.
+348,Implement an overflow design for status bar entries,,https://github.com/microsoft/vscode/issues/6651,Status bar overflow design is a feature request.
+349,Add setting to automatically hide the side bar,,https://github.com/microsoft/vscode/issues/3742,Auto‑hide side bar setting is a feature request.
