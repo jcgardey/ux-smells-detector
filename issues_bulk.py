@@ -17,7 +17,7 @@ import re
 #model = "openai/gpt-oss-20b:free"
 model = "meta-llama/llama-3.3-70b-instruct:free"
 # Read from issues.csv, write to issues_with_predictions.csv with model response column
-input_csv = 'issues.csv'
+input_csv = 'issues_20-10-25.csv'
 # Normalize model string by replacing '/' and ':' with spaces
 output_csv = f'issues_with_predictions_{ re.sub(r"[/:]", " ", model)}.csv'
 
@@ -37,6 +37,10 @@ reader_rows = []
 with open(input_csv, newline='', encoding='utf-8') as csvfile_in:
     reader = csv.DictReader(csvfile_in)
     reader_rows = list(reader)
+
+with open('issues_prompted.txt', 'w', encoding='utf-8') as issues_prompt_file:
+    issues_prompt_file.write(issues_to_string(reader_rows))
+    issues_prompt_file.flush()
 
 # Prepare to append to output CSV; write header only if file doesn't exist or is empty
 fieldnames = ['id', 'title', 'ux_smell', 'url', 'reasoning']
