@@ -1,4 +1,14 @@
-Necesito que actues como un modelo de prediccion. Te voy a indicar una serie de issues reportados por otros usuarios (separados por titulo y descripcion) en un repositorio de código de github y necesito que me indiques si cada uno corresponde a un UX smell o no. Los UX smells indican deficiencias en la experiencia de los usuarios, no son bugs ni feature requests. Reportan problemas de UX que pueden mejorarse sin modificar la funcionalidad de la aplicacion. Si consideras que es un UX smell indicame a cual de los siguientes corresponde:
+Necesito que actues como un modelo de prediccion. Te voy a indicar una serie de issues reportados por otros usuarios (separados por titulo y descripcion) en un repositorio de código de github y necesito que me indiques si cada uno corresponde a un UX smell o no. Para determinar si es un UX smell, tene en cuenta las siguientes definiciones:
+
+"Un UX Smell indica deficiencias en la experiencia de los usuarios provista por un sistema que pueden mejorarse sin modificar la funcionalidad de la aplicacion. No son bugs ni feature requests."
+
+Un Bug se identifica porque describe un comportamiento incorrecto o la descripción incluye los términos  "error" o "bug" explícitamente.
+
+Un Feature request es una solicitud de introducción de una funcionalidad que no está disponible actualmente. Puede incluir el texto "feature request", "request" o  descripciones como: "Pasos: * Instalar la extensión de RemoteHub en el escritorio * Abrir un repositorio desde el escritorio * Realizar un cambio * Descartar el cambio => 🐛 Obtienes un cuadro de diálogo personalizado, aunque esperaba uno nativo." o "We plan to update user profiles to support AI-first workflows (profile contents for chat configurations, profile descriptions, layouts that center AI) with the goal of providing AI-first profile templates. Current templates are not optimized for AI-first scenarios"
+
+Si el issue no se relaciona con aspectos de la experiencia de usuario, la categoria es "No UX".
+
+Si consideras que es un UX smell indicame a cual de los siguientes corresponde:
 
 ## Undescriptive Element 
 
@@ -116,5 +126,61 @@ Se produce cuando un elemento parece interactivo pero no responde a los clics de
 Ejemplos comunes incluyen imagenes, titulos o textos subrayados que no ejecutan ninguna accion al presionarse.
 
 ---
+
+## Clipped/Overlapping UI
+
+El diseño de la interfaz de usuario hace que los elementos se superpongan o se recorten.
+
+---
+
+## General UI Inconsistency
+
+Inconsistencia visual que no está cubierta por los smells  “Inconsistent Spacing/Alignment”, “Inconsistent Theming”, “Inconsistent feedback” o “Inconsistent placement”
+
+---
+
+## Inconsistent Spacing/Alignment
+
+El tamaño y el relleno del diseño de interfaz de usuario están desalineados, lo que reduce la claridad
+
+---
+
+## Inconsistent Theming
+
+Tokens/estilos de tema o colores inconsistentes entre los componentes
+
+---
+
+## Overloaded Menus
+
+La sobrecarga del menú reduce la capacidad de descubrimiento y la eficiencia
+
+---
+
+## Inconsistent feedback
+
+Falta de retroalimentación de progreso/éxito durante/después de las operaciones. 
+También falta retroalimentación al pasar el cursor o es inconsistente en controles similares.
+
+---
+
+## Inconsistent placement
+
+La ubicacion o el valor predeterminado entra en conflicto con las expectativas 
+
+---
+
+## Poor discoverability
+
+No hay ninguna indicación visual para descubrir cómo acceder a ciertas funciones. 
+Puede describirse como «Las etiquetas o el texto dificultan la visibilidad o la coherencia».
+
+---
+
+## Poor accessibility
+
+Problemas de contraste/visibilidad de color o uso de lector de pantalla que reduce la accesibilidad.
+
+--
 
 Responde en formato json (sin texto adicional) con un objeto por cada issue las siguientes claves: 'ux_smell' (uno de los valores anteriores o None si no aplica), 'reasoning' (string) explicando brevemente el razonamiento con no más de 25 palabras. Si el issue cumple con la definicion general de UX smell pero no se ajusta a ninguno de los tipos anteriores, agrega el tipo que consideres en 'ux_smell' y explicalo en 'reasoning'. Los tipos que agregues deben representar patrones recurrentes, aplicables en diferentes contextos.  
