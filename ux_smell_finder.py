@@ -30,7 +30,7 @@ def issues_to_string(issues):
     for issue in issues:
         title = issue.get('title', 'No Title')
         body = issue.get('body', 'No Description')
-        result += f"Título: {title}\nDescripcion: {body}\n---\n"
+        result += f"Titulo: {title}\nDescripcion: {body}\n---\n"
     return result
 
 reader_rows = []
