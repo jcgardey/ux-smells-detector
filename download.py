@@ -253,7 +253,7 @@ Examples:
         parser.error('Repository must be in format "owner/repo"')
     
     # Initialize downloader
-    downloader = GitHubIssuesDownloader(token='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')
+    downloader = GitHubIssuesDownloader(token=args.token)
     
     # Download and save issues
     try:
