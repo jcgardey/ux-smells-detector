@@ -1,0 +1,5 @@
+repo=eclipse-platform/eclipse.platform.ui
+fetched_total_issues=1273
+fetched_open_issues=460
+fetched_closed_issues=813
+notes=Filtered locally from all_issues.json to avoid GitHub API rate limits. Removed all Pull Requests.
